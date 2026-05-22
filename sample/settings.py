@@ -9,7 +9,11 @@ https://docs.djangoproject.com/en/5.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
+<<<<<<< HEAD
 ALLOWED_HOSTS = ["*"]
+=======
+
+>>>>>>> d58e4ba8514d35deed225e04eb85cfac974fea0e
 from pathlib import Path
 
 import pymysql
@@ -44,7 +48,10 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+<<<<<<< HEAD
     'whitenoise.middleware.WhiteNoiseMiddleware',
+=======
+>>>>>>> d58e4ba8514d35deed225e04eb85cfac974fea0e
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -147,5 +154,8 @@ CACHES = {
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+<<<<<<< HEAD
 STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+=======
+>>>>>>> d58e4ba8514d35deed225e04eb85cfac974fea0e
